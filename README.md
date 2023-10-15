@@ -1,14 +1,13 @@
-# Accountability
-
+# aiccountant.
 Empowering financial literacy with the power of GenAI
 
-Project for GatorHacks: UF AI Days x Verizon Hackathon
+Project for [GatorHacks](https://devpost.com/software/aiccountant): UF AI Days x Verizon Hackathon
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Features](#features)
-3. [Roadmap](#roadmap)
-4. [Contributors](#contributors)
+2. [Roadmap](#roadmap)
+3. [Contributors](#contributors)
 
 ## Introduction
 
@@ -20,32 +19,25 @@ Project for GatorHacks: UF AI Days x Verizon Hackathon
 [![React][React.js]][React-url]
 [![Bootstrap][Get-Bootstrap]][Bootstrap-url]
 
-## Features
-### Feature 1
-
-### Feature 2
-
-### Feature 3
-
 ## Roadmap
 - [x] Project Skeleton
     - [x] React skeleton
     - [x] Deploy with AWS
     - [x] README skeleton
-- [ ] React Website
+- [x] React Website
     - [x] Whiteboard website design layout
     - [x] Implement routing for content screens
     - [x] Integrate Chatbot into website
-    - [ ] Design content screen layout
-- [ ] Chatbot
+    - [x] Design content screen layout
+- [x] Chatbot
     - [x] OpenAI API integration
-    - [ ] Inform chatbot about website routes via prompts
-- [ ] Accounting Content
-    - [ ] Split into sections & subsections
-    - [ ] Generate content screen content
-- [ ] Cleaning Up
-    - [ ] Improve website design/theme
-    - [ ] Give chatbot entertaining personality
+    - [x] Inform chatbot about website routes via prompts
+- [x] Accounting Content
+    - [x] Split into sections & subsections
+    - [x] Generate content screen content
+- [x] Cleaning Up
+    - [x] Improve website design/theme
+    - [x] Give chatbot entertaining personality
 
 
 ## Contributors
@@ -66,4 +58,4 @@ C.J. Annunziato, Nathan Gilman, David Payne & Monorath Khinsim
 [Get-Bootstrap]: https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff&style=for-the-badge
 [Bootstrap-url]: https://getbootstrap.com/
 [project-screenshot]: images/screenshot.png
-[project-url]: https://main.d3zzit7f6g0xs.amplifyapp.com/
+[project-url]: https://main.dme28lqrqpati.amplifyapp.com/
