@@ -103,7 +103,7 @@ export default function ChatbotWindow( {param1, param2} ) {
         <div style={{}}>
           <form onSubmit={handleSubmit}>
             <input
-              style={{padding: '1rem', width: '71%', borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px", background: "#E1E1E1", border: "0px", marginTop: "1rem", marginLeft:"1rem", fontFamily: "Segoe UI"}}
+              style={{padding: '1rem', width: '69%', borderTopLeftRadius: "10px", borderBottomLeftRadius: "10px", background: "#E1E1E1", border: "0px", marginTop: "1rem", marginLeft:"1rem", fontFamily: "Segoe UI"}}
               type='text'
               value={prompt}
               placeholder='Enter prompt...'
