@@ -58,4 +58,4 @@ C.J. Annunziato, Nathan Gilman, David Payne & Monorath Khinsim
 [Get-Bootstrap]: https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=fff&style=for-the-badge
 [Bootstrap-url]: https://getbootstrap.com/
 [project-screenshot]: images/screenshot.png
-[project-url]: https://main.dme28lqrqpati.amplifyapp.com/
+[project-url]: https://www.aiccountant.xyz/
