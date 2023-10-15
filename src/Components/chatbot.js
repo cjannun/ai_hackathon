@@ -87,7 +87,7 @@ export default function ChatbotWindow( {param1, param2} ) {
         <div style={{position: 'absolute', bottom: '4rem', left: "0", right: "0", maxHeight: "88vh"}}>
         <div style={{position: 'relative', padding: "1rem"}}>
         <ScrollToBottom>
-        <div style={{height: "80vh", alignContent: "bottom"}}>
+        <div style={{height: "70vh", alignContent: "bottom", marginTop: "2rem"}}>
         
           {messages.map((message, index) => (
             <Message
