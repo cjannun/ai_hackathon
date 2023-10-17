@@ -1,5 +1,5 @@
 # aiccountant.
-Empowering financial literacy with of Generative AI
+Leveraging Generative AI to facilitate financial literacy in a niche topic: accounting.
 
 Project for GatorHacks: UF AI Days Hackathon
 
