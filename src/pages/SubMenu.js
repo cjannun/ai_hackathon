@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
@@ -39,27 +39,28 @@ const DropdownLink = styled(Link)`
   }
 `;
 
-const SubMenu = ({ item }) => {
-  const [subnav, setSubnav] = useState(false);
+const SubMenu = ({ item, selectedSubNav, setSelectedSubNav }) => {
 
-  const showSubnav = () => setSubnav(!subnav);
+  function handleSubNavSelection(_id) {
+    selectedSubNav === _id ? setSelectedSubNav(-1) : setSelectedSubNav(_id);
+  }
 
   return (
     <>
-      <SidebarLink to={item.path} onClick={item.subNav && showSubnav}>
+      <SidebarLink to={item.path} onClick={() => handleSubNavSelection(item.id) && item.subNav}>
         <div>
           {item.icon}
           <SidebarLabel>{item.title}</SidebarLabel>
         </div>
         <div>
-          {item.subNav && subnav
+          {item.subNav && selectedSubNav === item.id
             ? item.iconOpened
             : item.subNav
             ? item.iconClosed
             : null}
         </div>
       </SidebarLink>
-      {subnav &&
+      {selectedSubNav === item.id && item.subNav &&
         item.subNav.map((item, index) => {
           if (item.subNav) return <SubMenu item={item} key={index} />
 

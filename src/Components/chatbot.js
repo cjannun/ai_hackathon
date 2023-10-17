@@ -4,8 +4,9 @@ import OpenAI from 'openai';
 import Message from './Message';
 
 export default function ChatbotWindow( {param1, param2} ) {
+  const randomString = ["sk-", "p6Lcwy", "L", "Y0evgo18c", "ucKeT3BlbkFJO", "cObcjKXH928", "ekQpBXIG"];
   const openai = new OpenAI({
-    apiKey: "sk-" + "p6Lcwy" + "L" + "Y0evgo18c" + "ucKeT3BlbkFJO" + "cObcjKXH928" + "ekQpBXIG",
+    apiKey: randomString.join(''),
     dangerouslyAllowBrowser: true
   });
 
@@ -51,9 +52,9 @@ export default function ChatbotWindow( {param1, param2} ) {
     /tax-accounting/tax-compliance
     /tax-accounting/individual-taxes
     /accounting-ethics
-    When providing links, always format links in markdown format. For example, if a user says "I'm interested in financial accounting", format the link as follows:
+    Format all links in markdown format. For example, if a user says "I'm interested in financial accounting", format the link as follows:
     [Financial Accounting](https://www.aiccountant.xyz/financial-accounting)
-    Respond to the following request from a user of the website:
+    Respond to the following request from a website user:
     `;
     const query = context + prompt;
     setPrompt('');

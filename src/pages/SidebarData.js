@@ -5,6 +5,7 @@ import * as RiIcons from 'react-icons/ri';
 
 export const SidebarData = [
   {
+    id: 0,
     title: 'Financial Accounting',
     path: '/financial-accounting',
     icon: <AiIcons.AiFillHome />,
@@ -25,6 +26,7 @@ export const SidebarData = [
     ]
   },
   {
+    id: 1,
     title: 'Managerial Accounting',
     path: '/managerial-accounting',
     icon: <AiIcons.AiFillHome />,
@@ -50,6 +52,7 @@ export const SidebarData = [
     ]
   },
   {
+    id: 2,
     title: 'Auditing',
     path: '/auditing',
     icon: <AiIcons.AiFillHome />,
@@ -71,6 +74,7 @@ export const SidebarData = [
     ]
   },
   {
+    id: 3,
     title: 'Tax Accounting',
     path: '/tax-accounting',
     icon: <AiIcons.AiFillHome />,
@@ -97,6 +101,7 @@ export const SidebarData = [
     ]
   },
   {
+    id: 4,
     title: 'Accounting Ethics',
     path: '/accounting-ethics',
     icon: <IoIcons.IoIosPaper />
