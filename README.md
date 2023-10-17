@@ -1,7 +1,9 @@
 # aiccountant.
-Empowering financial literacy with the power of GenAI
+Empowering financial literacy with of Generative AI
 
-Project for [GatorHacks](https://devpost.com/software/aiccountant): UF AI Days x Verizon Hackathon
+Project for GatorHacks: UF AI Days Hackathon
+
+Check out the [DevPost](https://devpost.com/software/aiccountant)!
 
 
 ## Table of Contents
