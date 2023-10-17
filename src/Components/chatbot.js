@@ -51,6 +51,8 @@ export default function ChatbotWindow( {param1, param2} ) {
     /tax-accounting/tax-compliance
     /tax-accounting/individual-taxes
     /accounting-ethics
+    When providing links, always format links in markdown format. For example, if a user says "I'm interested in financial accounting", format the link as follows:
+    [Financial Accounting](https://www.aiccountant.xyz/financial-accounting)
     Respond to the following request from a user of the website:
     `;
     const query = context + prompt;
@@ -82,7 +84,7 @@ export default function ChatbotWindow( {param1, param2} ) {
         }}
       >
         <div style={{backgroundColor: "#1E1E1E", color: "white", padding: "0.5rem", textAlign:"right", fontSize: "30px", position: "absolute", zIndex: "1", left:"0", right: "0", fontFamily: "Segoe UI"}}>
-                <b>aiccoutant.&nbsp;&nbsp;&nbsp;</b>
+                <b>aiccountant.&nbsp;&nbsp;&nbsp;</b>
         </div>
         <div style={{position: 'absolute', bottom: '4rem', left: "0", right: "0", maxHeight: "88vh"}}>
         <div style={{position: 'relative', padding: "1rem"}}>
